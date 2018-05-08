@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/game.js" type="text/javascript"></script>
+</head>
+
+<!-- 
+    choose a theme
+    use key events to listen fo letters player will type
+    
+display:
+    "press any key to get started!"
+    "wins" (# of times user guess correct word)
+
+    if word is madonna display _ _ _ _ _ _ _
+    reveal letters as user guess them m a _ o _ _ a
+
+    number of guess reamining for user
+    letters already guessed
+
+    after the user wins/loses the game should automatically
+        choose another word and make user play it. 
+ -->
+
+
+<body>
+
+    <div class="container">
+        <img>
+        <div class="row">
+          <div class="col-md-6 gameplay">
+          <!-- you win image
+            gameober-image
+            presskey try again image
+            hamgman image -->
+        </div>
+
+          <div class="col-md-6 gameplay">
+              <h2>Press any key to begin!</h2>
+              <h4>Wins</h4>
+              <h5 id="totalWins"></h5>
+              <h4>Current Word</h4>
+              <h3 id="currentWord"></h3>
+              <h4>Guesses Remaining</h4>
+              <h6 id="remainingGuesses"></h6>
+          
+        </div>
+      </div>
+
+
+
+
+    
+
+
+
+
+</body>
+
+</html>
