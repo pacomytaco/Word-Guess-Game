@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(248, 1, 248);
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 247, 255);
+    background: url('../images/disneycastle.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px;
+    background-color:  rgb(248, 1, 248);
+}
+
+#title-image, #gameoverImage, #winnerImage {
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#presskeyTryAgain, #gameoverImage, #winnerImage {display: none;}  
+
+.gameplay {
+    padding-top: 20px;
+    border: 3px dashed rgb(0, 247, 255);
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: 
+}
+
